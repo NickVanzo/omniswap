@@ -133,3 +133,4 @@ dist
 .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/solidity
+uniswapv2-solc0.8
