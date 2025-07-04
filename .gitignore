@@ -1,15 +1,18 @@
-# Remix compiler artifacts
-**/artifacts/
-**/artifacts/**
+node_modules/
 
-# Remix plugin state folders
-deps/
-states/
-
-# Debug info
-*.dbg.json
-*.tsbuildinfo
-
-# Optional
+#Hardhat files
+cache
+artifacts
+build
 .env
-.env.local
+typechain-types
+
+# yarn cache
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

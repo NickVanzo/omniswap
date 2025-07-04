@@ -1,1 +1,778 @@
-{"_format":"","paths":{"artifacts":"out","build_infos":"out/build-info","sources":"src","tests":"test","scripts":"script","libraries":["lib"]},"files":{"lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol":{"lastModificationDate":1751650316038,"contentHash":"1535f8c0c68463f8c1b5239f7584e71f","sourceName":"lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol","imports":[],"versionRequirement":"^0.8.0","artifacts":{"ReentrancyGuard":{"0.8.28":{"default":{"path":"ReentrancyGuard.sol/ReentrancyGuard.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol":{"lastModificationDate":1751650316042,"contentHash":"df36f7051335cd1e748b1b6463b7fdd3","sourceName":"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol","imports":[],"versionRequirement":"^0.8.0","artifacts":{"IERC20":{"0.8.28":{"default":{"path":"IERC20.sol/IERC20.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol":{"lastModificationDate":1751650316044,"contentHash":"aa849939a4ae83a4dcb2dca9b3e9e707","sourceName":"lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol","imports":[],"versionRequirement":"^0.8.0","artifacts":{"IERC20Permit":{"0.8.28":{"default":{"path":"IERC20Permit.sol/IERC20Permit.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol":{"lastModificationDate":1751650316045,"contentHash":"1b5d667d3740d866eca0352758e59827","sourceName":"lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol","imports":["lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol","lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol","lib/openzeppelin-contracts/contracts/utils/Address.sol"],"versionRequirement":"^0.8.0","artifacts":{"SafeERC20":{"0.8.28":{"default":{"path":"SafeERC20.sol/SafeERC20.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"lib/openzeppelin-contracts/contracts/utils/Address.sol":{"lastModificationDate":1751650316049,"contentHash":"211ffd288c1588ba8c10eae668ca3c66","sourceName":"lib/openzeppelin-contracts/contracts/utils/Address.sol","imports":[],"versionRequirement":"^0.8.1","artifacts":{"Address":{"0.8.28":{"default":{"path":"Address.sol/Address.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"lib/solady/src/tokens/ERC20.sol":{"lastModificationDate":1751650316172,"contentHash":"6b39f7c149a328e2908199c5a6125d53","sourceName":"lib/solady/src/tokens/ERC20.sol","imports":[],"versionRequirement":"^0.8.4","artifacts":{"ERC20":{"0.8.28":{"default":{"path":"ERC20.sol/ERC20.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"lib/solady/src/utils/FixedPointMathLib.sol":{"lastModificationDate":1751650316175,"contentHash":"96acba6429be44f5f4ad27c8a8cd080d","sourceName":"lib/solady/src/utils/FixedPointMathLib.sol","imports":[],"versionRequirement":"^0.8.4","artifacts":{"FixedPointMathLib":{"0.8.28":{"default":{"path":"FixedPointMathLib.sol/FixedPointMathLib.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"src/UniswapV2Factory.sol":{"lastModificationDate":1751650533156,"contentHash":"af009af0f5b253f26d3ec421c56b38a9","sourceName":"src/UniswapV2Factory.sol","imports":["lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol","lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol","lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol","lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol","lib/openzeppelin-contracts/contracts/utils/Address.sol","lib/solady/src/tokens/ERC20.sol","lib/solady/src/utils/FixedPointMathLib.sol","src/UniswapV2Pair.sol","src/interfaces/IUniswapV2Callee.sol","src/interfaces/IUniswapV2Factory.sol","src/interfaces/IUniswapV2Pair.sol"],"versionRequirement":"^0.8.22","artifacts":{"UniswapV2Factory":{"0.8.28":{"default":{"path":"UniswapV2Factory.sol/UniswapV2Factory.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"src/UniswapV2Pair.sol":{"lastModificationDate":1751650538990,"contentHash":"555af3693ed6e4b256031859549f1b3e","sourceName":"src/UniswapV2Pair.sol","imports":["lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol","lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol","lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol","lib/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol","lib/openzeppelin-contracts/contracts/utils/Address.sol","lib/solady/src/tokens/ERC20.sol","lib/solady/src/utils/FixedPointMathLib.sol","src/interfaces/IUniswapV2Callee.sol","src/interfaces/IUniswapV2Factory.sol","src/interfaces/IUniswapV2Pair.sol"],"versionRequirement":"^0.8.22","artifacts":{"UniswapV2Pair":{"0.8.28":{"default":{"path":"UniswapV2Pair.sol/UniswapV2Pair.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"src/interfaces/IUniswapV2Callee.sol":{"lastModificationDate":1751650545139,"contentHash":"8a77ad3b8f819a32ffb387fc989ddc67","sourceName":"src/interfaces/IUniswapV2Callee.sol","imports":[],"versionRequirement":"^0.8.22","artifacts":{"IUniswapV2Callee":{"0.8.28":{"default":{"path":"IUniswapV2Callee.sol/IUniswapV2Callee.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"src/interfaces/IUniswapV2Factory.sol":{"lastModificationDate":1751650551269,"contentHash":"ab69ad985aef186de81f7eec37d5a4f5","sourceName":"src/interfaces/IUniswapV2Factory.sol","imports":[],"versionRequirement":"^0.8.22","artifacts":{"IUniswapV2Factory":{"0.8.28":{"default":{"path":"IUniswapV2Factory.sol/IUniswapV2Factory.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true},"src/interfaces/IUniswapV2Pair.sol":{"lastModificationDate":1751650553938,"contentHash":"b7ea46e099e395d68d3d7e6dd7b5fd61","sourceName":"src/interfaces/IUniswapV2Pair.sol","imports":[],"versionRequirement":"^0.8.22","artifacts":{"IUniswapV2Pair":{"0.8.28":{"default":{"path":"IUniswapV2Pair.sol/IUniswapV2Pair.json","build_id":"61b1ed2857fb78f5cdcb3f62a8d94dc8"}}}},"seenByCompiler":true}},"builds":["61b1ed2857fb78f5cdcb3f62a8d94dc8"],"profiles":{"default":{"solc":{"optimizer":{"enabled":true,"runs":200},"metadata":{"useLiteralContent":false,"bytecodeHash":"ipfs","appendCBOR":true},"outputSelection":{"*":{"*":["abi","evm.bytecode","evm.deployedBytecode","evm.methodIdentifiers","metadata"]}},"evmVersion":"cancun","viaIR":false,"libraries":{}},"vyper":{"evmVersion":"cancun","outputSelection":{"*":{"*":["abi","evm.bytecode","evm.deployedBytecode"]}}}}}}
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/UniswapV2ERC20.sol": {
+      "lastModificationDate": 1751656920189,
+      "contentHash": "cf653f06b3851fdc1a3baf47259e226f",
+      "sourceName": "contracts/UniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "UniswapV2ERC20"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/interfaces/IUniswapV2ERC20.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "7e41c51308a3386032fc8c48af370697",
+      "sourceName": "contracts/interfaces/IUniswapV2ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "IUniswapV2ERC20"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/test/ERC20.sol": {
+      "lastModificationDate": 1751656935415,
+      "contentHash": "ca4881b2366570fc7b1d36148c98d8ab",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../UniswapV2ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/UniswapV2Pair.sol": {
+      "lastModificationDate": 1751656936372,
+      "contentHash": "a47545026d7166e3d0c74c7bed4fb7e5",
+      "sourceName": "contracts/UniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Pair.sol",
+        "./UniswapV2ERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IUniswapV2Factory.sol",
+        "./interfaces/IUniswapV2Callee.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "UniswapV2Pair"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "345c9f6e859c590082371436e75335bf",
+      "sourceName": "contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1751656935388,
+      "contentHash": "061c492946884647653ec7daf69ae7e6",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1751656935384,
+      "contentHash": "8000dbb59e45b92b3e5e5c2d7f4c278d",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "d3143a5e18f1c1eb95e1b54ebfd2f935",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "770700fc9aea8409ea74e69dbe48cca0",
+      "sourceName": "contracts/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "34250772d9774c98254ae5b3d00d066e",
+      "sourceName": "contracts/interfaces/IUniswapV2Callee.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "IUniswapV2Callee"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/UniswapV2Router.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "69d555c03eb37990bf2f1276423a07c9",
+      "sourceName": "contracts/UniswapV2Router.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./interfaces/IUniswapV2Router.sol",
+        "./interfaces/IUniswapV2Pair.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IWETH.sol",
+        "./libraries/TransferHelper.sol",
+        "./libraries/UniswapV2Library.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "UniswapV2Router"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/interfaces/IUniswapV2Router.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "d0f476c9f56454bc06a21af1616e90f5",
+      "sourceName": "contracts/interfaces/IUniswapV2Router.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "IUniswapV2Router"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/libraries/TransferHelper.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "bfbe42308773f54c38b5fb661e12e1f7",
+      "sourceName": "contracts/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/interfaces/IWETH.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "682211c7ed4f40a8d737e3ba8dbca40d",
+      "sourceName": "contracts/interfaces/IWETH.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "IWETH"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/libraries/UniswapV2Library.sol": {
+      "lastModificationDate": 1751656935415,
+      "contentHash": "b9109b17b874194678f97d8322440455",
+      "sourceName": "contracts/libraries/UniswapV2Library.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "UniswapV2Library"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1751656935366,
+      "contentHash": "a83168dc3f1ddc5dda895b245b850922",
+      "sourceName": "contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/UniswapV2Factory.sol": {
+      "lastModificationDate": 1751656916856,
+      "contentHash": "fa30775d18d0f11f7a70bda88a1fc320",
+      "sourceName": "contracts/UniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IUniswapV2Factory.sol",
+        "./interfaces/IUniswapV2Pair.sol",
+        "./UniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "UniswapV2Factory"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/test/RouterEventEmitter.sol": {
+      "lastModificationDate": 1751656935415,
+      "contentHash": "5e75898dd90b4a034298cf95fdd16a2b",
+      "sourceName": "contracts/test/RouterEventEmitter.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "RouterEventEmitter"
+      ]
+    },
+    "/Users/nicolovanzo/Documents/hackathon/uniswapv2-solc0.8/contracts/test/WETH9.sol": {
+      "lastModificationDate": 1751656935415,
+      "contentHash": "02aabfb185e64abbe77eea0016c8a96c",
+      "sourceName": "contracts/test/WETH9.sol",
+      "solcConfig": {
+        "version": "0.8.22",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 9999
+          },
+          "metadata": {
+            "bytecodeHash": "none"
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.22"
+      ],
+      "artifacts": [
+        "WETH9"
+      ]
+    }
+  }
+}
