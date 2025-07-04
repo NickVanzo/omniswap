@@ -4,7 +4,9 @@ out = "out"
 libs = ["lib"]
 
 remappings = [
-    "@openzeppelin/=lib/openzeppelin-contracts/",
+    "@layerzerolabs/oapp-evm/=lib/devtools/packages/oapp-evm/",
+    "@layerzerolabs/lz-evm-protocol-v2/=lib/layerzero-v2/packages/layerzero-v2/evm/protocol",
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
     "solady=lib/solady/src/"
 ]
 
@@ -12,9 +14,6 @@ solc_remaps = [
     "ds-test/=lib/ds-test/src/",
     "forge-std/=lib/forge-std/src/",
     "solady=lib/solady/src/",
-    "@layerzerolabs/oapp-evm/=lib/devtools/packages/oapp-evm/",
-    "@layerzerolabs/lz-evm-protocol-v2/=lib/layerzero-v2/packages/layerzero-v2/evm/protocol",
-    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
   ]
 
 [fuzz]

@@ -3,6 +3,7 @@ pragma solidity ^0.8.22;
 
 import './interfaces/IUniswapV2Factory.sol';
 import './UniswapV2Pair.sol';
+import { OAppOptionsType3 } from "@layerzerolabs/oapp-evm/contracts/oapp/libs/OAppOptionsType3.sol";
 
 contract UniswapV2Factory is IUniswapV2Factory {
     address public feeTo;
